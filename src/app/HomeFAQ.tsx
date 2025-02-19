@@ -24,7 +24,7 @@ export function HomeFAQ() {
             const isMiddle = index === Math.floor(faqData.length / 2);
 
             return (
-              <div key={index} className="mt-6" data-aos="zoom-out-left">
+              <div key={index} className="mt-6" data-aos="fade-down">
                 <div className={`${isMiddle ? "bg-gradient-to-b from-[#1F63AA] via-[#003D82] to-[#00424f] text-white" : "bg-white text-[#404040] border xl:ml-6 "} w-full py-2 px-4 rounded-[20px] border-black/30`}>
                   <div className="flex flex-col lg:flex-row items-start lg:items-center justify-around gap-[18px]">
                     <div className={`p-5 rounded-[10px] ${isMiddle ? "bg-white text-[#1F63AA]" : "bg-gradient-to-b from-[#1F63AA] via-[#003D82] to-[#00424f] text-white"}`}>
