@@ -50,7 +50,7 @@ export const faqData = [
     number: "02",
     title: "Como funciona o seu atendimento?",
     description:
-      "Meu atendimento é focado em responder suas dúvidas e fornecer assistência personalizada, oferecendo soluções eficazes e resultados sólidos. Utilizo uma abordagem detalhada, com a aplicação de anamnese e o auxílio de equipamentos de alta tecnologia para garantir o melhor atendimento possível,",
+      "Meu atendimento é focado em responder suas dúvidas e fornecer assistência personalizada, oferecendo soluções eficazes e resultados sólidos. Utilizo uma abordagem detalhada, com a aplicação de anamnese e o auxílio de equipamentos de alta tecnologia para garantir o melhor atendimento possível.",
   },
   {
     number: "03",
