@@ -54,7 +54,7 @@ const items = [
         titleService: "Performance",
         descriptionService:
           "Maximize seus resultados esportivos comigo. Com um plano alimentar personalizado, você atingirá novos níveis de desempenho.",
-        image: <Image width={400} height={400} src="/performaceImg.svg" alt="Performance" className="w-full h-auto" />,
+        image: <Image width={400} height={400} src="/PerformaceImg.svg" alt="Performance" className="w-full h-auto" />,
         header: <Skeleton />,
       },
       {
