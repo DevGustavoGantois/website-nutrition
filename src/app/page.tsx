@@ -13,6 +13,7 @@ import "aos/dist/aos.css";
 import { Navbar } from "./global/navbar";
 import { Footer } from "./global/footer";
 import { HomePlans } from "./s-plans";
+import { WhatsAppButton } from "@/components/c-whatsapp-button";
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -51,6 +52,7 @@ export default function Page() {
           <HomeLocation />
           <HomeContact />
           <Footer />
+          <WhatsAppButton />
         </>
       )}
     </main>
