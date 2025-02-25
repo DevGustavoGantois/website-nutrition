@@ -11,12 +11,12 @@ export function HomeServices() {
           key={index}
           className="flex items-center lg:items-start justify-center lg:justify-start flex-col mb-8"
         >
-          <div className="text-2xl lg:text-[40px] font-bold bg-gradient-to-r from-[#1F63AA] to-[#00424F] bg-clip-text text-transparent h-[50px]" data-aos="fade-down">
+          <div className="text-2xl text-center lg:text-start lg:text-[40px] font-bold bg-gradient-to-r from-[#1F63AA] to-[#00424F] bg-clip-text text-transparent max-w-[439px] lg:leading-10 h-[110px] lg:h-[140px]">
             {item.title}
           </div>
           <p className="text-center text-base lg:text-[20px] lg:text-start text-[#404040] max-w-[539px]" data-aos="fade-up">
             {item.description}
-          </p>
+          </p>  
         </div>
       ))}
       <BentoGrid className="max-w-full mx-auto mt-20 lg:mt-64">
@@ -37,23 +37,23 @@ export function HomeServices() {
 
 const items = [
     {
-        titleService: "Emagrecimento",
+        titleService: "Obesidade pré-clinica e obesidade clínica",
         descriptionService:
-          "Juntos, vamos trabalhar em um plano que respeite suas necessidades nutricionais e ajude a perder peso de forma equilibrada e sem sofrimento.",
+          "Juntos, vamos elaborar um plano dietético que respeite suas necessidades nutricionais e seus gostos alimentares, proporcionando um tratamento equilibrado e sem sofrimento.",
         image: <Image width={400} height={400} src="/emagrecimentoImg.svg" alt="Emagrecimento" className="w-full h-auto" />,
         header: <Skeleton />,
       },
       {
         titleService: "Saúde",
         descriptionService:
-          "Alimente-se de maneira que favoreça seu bem-estar e previna doenças. Um plano nutricional focado na saúde garante que você esteja nutrido corretamente.",
+          "Utilize a nutrição para favorecer seu bem-estar e prevenir doenças, com um plano alimentar voltado para melhoria de seus parâmetros de saúde.",
         image: <Image width={400} height={400} src="/saudeImg.svg" alt="Saúde" className="w-full h-auto" />,
         header: <Skeleton />,
       },
       {
         titleService: "Performance",
         descriptionService:
-          "Maximize seus resultados esportivos comigo. Com um plano alimentar personalizado, você atingirá novos níveis de desempenho.",
+          "Maximize seus resultados esportivos com um plano nutricional personalizado, que guie seu consumo de alimentos estratégicos e quantidades adequadas para o seu desempenho físico e metabólico.",
         image: <Image width={400} height={400} src="/PerformaceImg.svg" alt="Performance" className="w-full h-auto" />,
         header: <Skeleton />,
       },
@@ -67,7 +67,7 @@ const items = [
       {
         titleService: "Bodybuilding",
         descriptionService:
-          "Desenvolvemos planos detalhados que vão te ajudar a ganhar massa muscular de forma eficiente, melhorar a recuperação e alcançar o físico desejado para competições.",
+          "Construa e fortaleça sua massa muscular. Um plano alimentar focado em seus objetivos como atleta no suporte de todas as etapas de treinamento, visando a otimização dos resultados.",
         image: <Image width={400} height={400} src="/bodybuildingImg.svg" alt="Bodybuilding" className="w-full h-auto" />,
         header: <Skeleton />,
       },

@@ -12,6 +12,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Navbar } from "./global/navbar";
 import { Footer } from "./global/footer";
+import { HomePlans } from "./s-plans";
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -26,7 +27,7 @@ export default function Page() {
 
     const timeout = setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    }, 2000);
 
     return () => clearTimeout(timeout);
   }, []);
@@ -42,6 +43,7 @@ export default function Page() {
           <Navbar />
           <HomeHero />
           <HomeServices />
+          <HomePlans />
           <CarouselSlide />
           <HomeAbout />
           <HomeFAQ />

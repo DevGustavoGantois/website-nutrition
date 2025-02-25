@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-white w-[310px] xl:w-[407px]",
+        default: "bg-white w-[315px] xl:w-[407px]",
         destructive:
           "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline:
@@ -17,6 +17,7 @@ const buttonVariants = cva(
         secondary:
           "bg-white rounded-[10px] text-base w-[165px] p-4 transition-all duration-700 hover:scale-[1.1] text-[#1F63AA]",
         tertiary: "bg-[#1F63AA] rounded-[10px] text-base w-[165px] p-4 transition-all duration-700 hover:scale-[1.1] hover:bg-transparent hover:text-[#1F63AA] text-white hover:border border-blue-500 hover:font-bold ml-0 hover:ml-6",
+        btn_cta: "bg-[#1F63AA] rounded-[10px] text-base w-1/4 text-white font-semilbold p-6 transition-all duration-700 hover:scale-[1.2] hover:shadow-xl", 
         link: "text-primary underline-offset-4 hover:underline",
       },
       size: {

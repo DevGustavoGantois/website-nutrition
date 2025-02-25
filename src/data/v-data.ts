@@ -24,18 +24,41 @@ export const navbarData = [
 
 export const servicesData = [
   {
-    title: "Como posso te ajudar?",
-    description:
-      "Através dos meus serviços posso transformar seu físico e junto a isso melhorar a sua saúde.",
+    title: "Sua jornada de transformação começa aqui!",
+    description: "em busca de um propósito: uma vida melhor e mais saudável.",
+    btnText: "Clique para dar o primeiro passo!"
   },
+];
+
+export const plansData = [
+  {
+    number: "01",
+    title: "Alguma coisa 1234",
+    plans: [
+        {
+            "name": "Plano Básico",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        {
+            "name": "Plano Intermediário",
+            "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        {
+            "name": "Plano Premium",
+            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+    ],
+    btnText: "Comece agora"
+},
 ];
 
 export const aboutData = [
   {
     title: "Sobre mim",
     description:
-      "Rafael Perrone é um nutricionista com mais de 25 anos de experiência na área, especializado em nutrição para obesos de grau 1 e grau 2. Ao longo de sua carreira, ele desenvolveu uma abordagem personalizada e eficaz para ajudar seus pacientes a alcançarem seus objetivos, seja no processo de emagrecimento, saúde geral ou performance atlética. atende pacientes que buscam otimizar sua saúde e alcançar alta performance, com foco em estratégias alimentares adaptadas às necessidades individuais. Sua expertise se estende ainda ao universo do bodybuilding, onde ele oferece acompanhamento nutricional preciso.",
+      "Nutricionista, educador físico e especialista em fisiologia do exercício, Rafael Perrone recorre as suas vivências para atuar como Coach de Mudança de Estilo de Vida (MEV).  Como alguém que superou a obesidade, usa as técnicas que desenvolveu aliado às suas formações multidisciplinares para sua própria transformação. Hoje, com expertise no tratamento à obesidade, auxilia pacientes e mentorados a alcançarem objetivos e otimizarem sua saúde e performance, com foco em estratégias alimentares adaptadas às necessidades individuais.",
     btnText: "Saiba mais",
+    btnWhatsapp: "Whatsapp"
   },
 ];
 
@@ -44,19 +67,19 @@ export const faqData = [
     number: "01",
     title: "Qual a melhor dieta para perder peso de forma saudável?",
     description:
-      "Para perder peso de forma saudável, a melhor abordagem envolve uma combinação de alimentação equilibrada, atividade física regular e ajustes no estilo de vida.",
+      "Para a diminuição do percentual de gordura, a dieta deve atender as necessidades específicas de macros e micros nutrientes, assim como o princípio da individualidade biológica.",
   },
   {
     number: "02",
     title: "Como funciona o seu atendimento?",
     description:
-      "Meu atendimento é focado em responder suas dúvidas e fornecer assistência personalizada, oferecendo soluções eficazes e resultados sólidos. Utilizo uma abordagem detalhada, com a aplicação de anamnese e o auxílio de equipamentos de alta tecnologia para garantir o melhor atendimento possível.",
+      "Meu atendimento é individualizado e contempla etapas que se iniciam com uma pré análise do caso, seguido de consulta com realização de bioimpedância, prescrição do tratamento nutricional e acompanhamento ao longo do processo.",
   },
   {
     number: "03",
     title: "É possível emagrecer comendo o que eu gosto?",
     description:
-      "Sim, é possível emagrecer comendo o que você gosta, mas a chave está em equilibrar suas escolhas alimentares e entender o conceito de moderacão.",
+      "Sim, é possível diminuir seu percentual de gordura comendo o que gosta, desde que consiga flexibilidade metabólica e a refeição esteja dentro do planejamento realizado.",
   },
 ];
 
@@ -82,7 +105,7 @@ export const testimonialsData = [
         name: "Victorio Amoedo Luedy",
       },
       {
-        condition: "Gerente de comunicação - 35 anos",
+        condition: "Estrategista Digital - 35 anos",
         testimonial: "Excelência, cuidado e personalização em cada detalhe. Rafael alia conhecimento técnico, comunicação clara e um genuíno compromisso em todo o processo. Desde o primeiro contato, sua atenção e personalização fazem a diferença. Explica tudo com precisão e acompanha cada etapa, sempre disponível e atento. Esse cuidado gera confiança.",
         name: "Rachel Seika Arasato",
       },
@@ -124,7 +147,7 @@ export const contactData = [
   {
     title: "Entre em Contato",
     description:
-      "Dê o primeiro passo para transformar sua saúde e alcançar o corpo que sempre desejou, com um plano personalizado e acompanhamento especializado para resultados duradouros!",
+      "Dê o primeiro passo para transformar sua saúde e alcançar a performance física que sempre desejou, com um plano personalizado e acompanhamento especializado para resultados consistentes!",
     btnText: "Entrar em contato agora",
   },
 ];
