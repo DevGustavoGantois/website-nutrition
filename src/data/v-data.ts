@@ -37,7 +37,6 @@ export const plansData = [
     number: "01",
     title: "Coach MEV (Mudança de Estilo de Vida)",
     pretitle: "Atendimento completo com avaliação inicial e acompanhamento nutricional e de treinamento durante 4 meses",
-    price: "R$ 1.000",
     plan: [
       "2 consultas presenciais, com duração de até 2h30",
       "Acompanhamento durante 4 meses",
@@ -55,9 +54,8 @@ export const plansData = [
 },
 {
   number: "02",
-  title: "Consultoria Presencial",
+  title: "Consulta Presencial",
   pretitle: "Realizada em Lauro de Freitas/BA, esta modalidade visa realizar um atendimento completo nutricional e de diagnóstico de treinamento",
-  price: "R$ 600",
   plan: [
     "Consulta presencial com duração de até 2h30",
     "Avaliação inicial: anamnese, exames, avaliação física de 7 dobras, bioimpedância",
@@ -73,7 +71,6 @@ export const plansData = [
   number: "03",
   title: "Consulta Online",
   pretitle: "Esta modalidade visa realizar um atendimento completo nutricional e de diagnóstico de treinamento com maior flexibilidade",
-  price: "R$ 500",
   plan: [
     "Consulta remota com duração de até 2h",
     "Avaliação inicial: anamnese, exames",
@@ -89,7 +86,6 @@ export const plansData = [
   number: "04",
   title: "Consulta de Mudança de Estratégia",
   pretitle: "Presencial ou online, esse atendimento visa atender pessoas que já são pacientes e que têm novos objetivos",
-  price: "R$ 600",
   plan: [
     "Consulta presencial ou online com duração de até 2h",
     "Avaliação: anamnese, exames, avaliação física de 7 dobras, bioimpedância",
@@ -105,7 +101,6 @@ export const plansData = [
   number: "05",
   title: "Consulta de retorno ou ajuste",
   pretitle: "Presencial ou online, esse atendimento visa atender pessoas que já são pacientes e querem dar sequência ao tratamento",
-  price: "R$ 300",
   plan: [
     "Consulta presencial com duração de 1h",
     "Reavaliação física, se necessário",
@@ -120,7 +115,6 @@ export const plansData = [
   number: "06",
   title: "Avaliação Física com Bioimpedância",
   pretitle: "Avaliação física presencial padrão ouro, contendo protocolo de 7 dobras e bioimpedância",
-  price: "R$ 200",
   plan: [
     "Avaliação 7 dobras e bioimpedância"
   ],

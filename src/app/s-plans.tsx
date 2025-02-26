@@ -31,10 +31,6 @@ export function HomePlans() {
                             <div className="p-6">
                                 <h2 className="text-black text-center lg:text-start font-semibold text-2xl mb-2">{item.title}</h2>
                                 <p className="font-medium text-center lg:text-start max-w-[750px] mb-4 text-gray-700">{item.pretitle}</p>
-                                <h1 className="text-5xl text-black font-semibold mb-6 flex items-center gap-2 mt-10">
-                                    {item.price}
-                                    <span className="text-xl font-light">/Mensal</span>
-                                </h1>
                                 <div className="flex flex-col gap-4 mb-6">
                                     {item.plan.map((benefit, i) => (
                                         <div key={i} className="flex items-center gap-3">

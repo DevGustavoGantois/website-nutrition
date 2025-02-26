@@ -13,7 +13,7 @@ export function HomeLocation() {
           target="_blank"
           className="text-center text-black/80 transition-all duration-700 hover:scale-[1.1] hover:text-[#1F63AA] hover:underline"
         >
-          Localizado em Rua Magno da Purificação / Lauro de Freitas / Lote 62 / Santo Antônio
+          Localizado em Lauro de Freitas / Camaçari / Salvador
         </Link>
 
         <div className="mt-8 w-full max-w-8xl">
