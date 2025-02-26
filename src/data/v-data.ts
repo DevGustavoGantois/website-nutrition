@@ -6,6 +6,9 @@ export const navbarData = [
     name: "Serviços",
   },
   {
+    name: "Planos"
+  },
+  {
     name: "Sobre mim",
   },
   {
@@ -32,23 +35,98 @@ export const servicesData = [
 export const plansData = [
   {
     number: "01",
-    title: "Alguma coisa 1234",
-    plans: [
-        {
-            "name": "Plano Básico",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        },
-        {
-            "name": "Plano Intermediário",
-            "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-        },
-        {
-            "name": "Plano Premium",
-            "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-        }
+    title: "Coach MEV (Mudança de Estilo de Vida)",
+    pretitle: "Atendimento completo com avaliação inicial e acompanhamento nutricional e de treinamento durante 4 meses",
+    price: "R$ 1.000",
+    plan: [
+      "2 consultas presenciais, com duração de até 2h30",
+      "Acompanhamento durante 4 meses",
+      "Avaliação inicial: anamnese, exames, avaliação física de 7 dobras, bioimpedância",
+      "Plano alimentar individualizado",
+      "Diagnóstico de treino, com indicação por aplicativo",
+      "Segunda avaliação: progressão do tratamento, bioimpedância",
+      "Consultas de ajustes online a cada 30 dias ou quando necessário",
+      "Contato semanal (15 minutos) via vídeo",
+      "Ajustes online no plano dietético conforme necessidade",
+      "Acompanhamento semanal via fotos e pesagem",
+      "Tira dúvidas em tempo integral via WhatsApp",
     ],
-    btnText: "Comece agora"
+    btnText: "Quero esse atendimento!"
 },
+{
+  number: "02",
+  title: "Consultoria Presencial",
+  pretitle: "Realizada em Lauro de Freitas/BA, esta modalidade visa realizar um atendimento completo nutricional e de diagnóstico de treinamento",
+  price: "R$ 600",
+  plan: [
+    "Consulta presencial com duração de até 2h30",
+    "Avaliação inicial: anamnese, exames, avaliação física de 7 dobras, bioimpedância",
+    "Plano alimentar individualizado",
+    "Ajustes online do plano dietético conforme necessidade, em até 21 dias",
+    "Diagnóstico de treino",
+    "Acompanhamento semanal via fotos e pesagem",
+    "Acompanhamento durante 30 dias",
+  ],
+  btnText: "Quero esse atendimento!"
+},
+{
+  number: "03",
+  title: "Consulta Online",
+  pretitle: "Esta modalidade visa realizar um atendimento completo nutricional e de diagnóstico de treinamento com maior flexibilidade",
+  price: "R$ 500",
+  plan: [
+    "Consulta remota com duração de até 2h",
+    "Avaliação inicial: anamnese, exames",
+    "Plano alimentar individualizado",
+    "Ajustes online do plano dietético conforme necessidade, em até 21 dias",
+    "Diagnóstico de treino",
+    "Acompanhamento semanal via fotos e pesagem",
+    "Acompanhamento durante 30 dias",
+  ],
+  btnText: "Quero esse atendimento!"
+},
+{
+  number: "04",
+  title: "Consulta de Mudança de Estratégia",
+  pretitle: "Presencial ou online, esse atendimento visa atender pessoas que já são pacientes e que têm novos objetivos",
+  price: "R$ 600",
+  plan: [
+    "Consulta presencial ou online com duração de até 2h",
+    "Avaliação: anamnese, exames, avaliação física de 7 dobras, bioimpedância",
+    "Plano alimentar individualizado",
+    "Ajustes online do plano dietético conforme necessidade, em até 21 dias",
+    "Diagnóstico de treino",
+    "Acompanhamento semanal via fotos e pesagem",
+    "Acompanhamento durante 30 dias"
+  ],
+  btnText: "Quero esse atendimento!"
+},
+{
+  number: "05",
+  title: "Consulta de retorno ou ajuste",
+  pretitle: "Presencial ou online, esse atendimento visa atender pessoas que já são pacientes e querem dar sequência ao tratamento",
+  price: "R$ 300",
+  plan: [
+    "Consulta presencial com duração de 1h",
+    "Reavaliação física, se necessário",
+    "Ajustes no plano alimentar",
+    "Ajustes online do plano dietético conforme necessidade, em até 21 dias",
+    "Acompanhamento semanal via fotos e pesagem",
+    "Acompanhamento durante 30 dias"
+  ],
+  btnText: "Quero esse atendimento!"
+},
+{
+  number: "06",
+  title: "Avaliação Física com Bioimpedância",
+  pretitle: "Avaliação física presencial padrão ouro, contendo protocolo de 7 dobras e bioimpedância",
+  price: "R$ 200",
+  plan: [
+    "Avaliação 7 dobras e bioimpedância"
+  ],
+  btnText: "Quero esse atendimento!"
+},
+
 ];
 
 export const aboutData = [

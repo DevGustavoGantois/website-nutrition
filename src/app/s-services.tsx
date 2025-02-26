@@ -11,7 +11,7 @@ export function HomeServices() {
           key={index}
           className="flex items-center lg:items-start justify-center lg:justify-start flex-col mb-8"
         >
-          <div className="text-2xl text-center lg:text-start lg:text-[40px] font-bold bg-gradient-to-r from-[#1F63AA] to-[#00424F] bg-clip-text text-transparent max-w-[669px] lg:leading-10 h-[90px]">
+          <div className="text-2xl text-center lg:text-start lg:text-[40px] font-bold bg-gradient-to-r from-[#1F63AA] to-[#00424F] bg-clip-text text-transparent max-w-[669px] lg:leading-10 h-[90px] mt-10">
             {item.title}
           </div>
           <p className="text-center text-base lg:text-[20px] lg:text-start text-[#404040] max-w-[539px]" data-aos="fade-up">

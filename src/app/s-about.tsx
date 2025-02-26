@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function HomeAbout() {
   return (
-    <section className="max-w-[1240px] mx-auto p-8 lg:p-0" id="sobre-mim">
+    <section className="max-w-[1240px] mx-auto mt-20 p-8 lg:p-0" id="sobre-mim">
       <div className="bg-gradient-to-b from-[#1F63AA] via-[#003D82] to-[#00424f] p-8 lg:px-10 lg:py-0 rounded-2xl lg:rounded-[40px]">
         {aboutData.map((item, index) => {
           return (

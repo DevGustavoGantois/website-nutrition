@@ -44,8 +44,8 @@ export default function Page() {
           <Navbar />
           <HomeHero />
           <HomeServices />
-          <HomePlans />
           <CarouselSlide />
+          <HomePlans />
           <HomeAbout />
           <HomeFAQ />
           <HomeTestimonials />

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function CarouselSlide() {
   return (
-    <div className="flex w-full h-full overflow-hidden p-6 lg:p-12 lg:mt-[100px] lg:mb-20">
+    <div className="flex w-full h-full overflow-hidden p-6 lg:p-12 lg:mt-[100px] lg:mb-12">
       <div className="animate-slideCarousel flex gap-32 whitespace-nowrap p-4">
         <Image
           src="/Definicao.svg"
