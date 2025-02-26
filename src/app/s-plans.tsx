@@ -47,7 +47,7 @@ export function HomePlans() {
                                 </div>
                                 <div className="flex items-center justify-center group">
                                     <button className="w-full lg:w-[80%] p-4 bg-[#1F63AA] text-white text-center font-semibold rounded-3xl transition-all duration-700 hover:bg-transparent group-hover:text-[#1F63AA] group-hover:border border-blue-500 group-hover:-translate-y-2">
-                                        <Link href="">{item.btnText}</Link>
+                                        <Link target="_blank" href="https://wa.me/557196951555?text=Ol%C3%A1.%20Tudo%20bem%20Rafael?!%20Queria%20marcar%20uma%20consulta!%20Qual%20seria%20sua%20disponibilidade%3F">{item.btnText}</Link>
                                     </button>
                                 </div>
                             </div>
