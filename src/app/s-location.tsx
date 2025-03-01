@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function HomeLocation() {
   return (
-    <section className="mt-40 overflow-hidden bg-white p-8" id="localizacao">
+    <section className="mt-40 overflow-hidden bg-white p-8" id="localização">
       <div className="flex flex-col items-center justify-center">
         <h1 className="mb-4 text-center text-3xl font-semibold text-black">
           Localização do <span className="text-[#1F63AA]">Consultório</span>
