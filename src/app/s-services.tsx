@@ -44,7 +44,7 @@ const items = [
         header: <Skeleton />,
       },
       {
-        titleService: "Sacopernia",
+        titleService: "Sarcopenia",
         descriptionService:
           "A perda de peso pode levar à sarcopenia, comprometendo a força e a funcionalidade. Para evitar isso, é essencial manter treinamento de força e uma dieta rica em proteínas.",
         image: <Image width={300} height={400} src="/SarcopeniaImg.svg" alt="Saúde" className="w-full h-auto" />,
