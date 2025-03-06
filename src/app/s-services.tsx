@@ -44,10 +44,10 @@ const items = [
         header: <Skeleton />,
       },
       {
-        titleService: "Saúde",
+        titleService: "Sacopernia",
         descriptionService:
-          "Utilize a nutrição para favorecer seu bem-estar e prevenir doenças, com um plano alimentar voltado para melhoria de seus parâmetros de saúde.",
-        image: <Image width={400} height={400} src="/saudeImg.svg" alt="Saúde" className="w-full h-auto" />,
+          "A perda de peso pode levar à sarcopenia, comprometendo a força e a funcionalidade. Para evitar isso, é essencial manter treinamento de força e uma dieta rica em proteínas.",
+        image: <Image width={300} height={400} src="/SarcopeniaImg.svg" alt="Saúde" className="w-full h-auto" />,
         header: <Skeleton />,
       },
       {
@@ -58,14 +58,14 @@ const items = [
         header: <Skeleton />,
       },
       {
-        titleService: "Massa Muscular",
+        titleService: "Saúde",
         descriptionService:
           "Construa e fortaleça seus músculos com o plano alimentar ideal. Através de uma alimentação balanceada e focada, podemos otimizar a recuperação muscular e a força.",
-        image: <Image width={400} height={400} src="/massa-muscularImg.svg" alt="Massa Muscular" className="w-full h-auto" />,
+        image: <Image width={400} height={400} src="/saudeImg.svg" alt="Massa Muscular" className="w-full overflow-hidden h-1/2" />,
         header: <Skeleton />,
       },
       {
-        titleService: "Bodybuilding",
+        titleService: "Massa Muscular",
         descriptionService:
           "Construa e fortaleça sua massa muscular. Um plano alimentar focado em seus objetivos como atleta no suporte de todas as etapas de treinamento, visando a otimização dos resultados.",
         image: <Image width={400} height={400} src="/bodybuildingImg.svg" alt="Bodybuilding" className="w-full h-auto" />,

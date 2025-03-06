@@ -18,7 +18,7 @@ export function HomePlans() {
                 spaceBetween={20} 
                 slidesPerView={1} 
                 loop={true} 
-                autoplay={{ delay: 3000, disableOnInteraction: false }}
+                autoplay={{ delay: 10000, disableOnInteraction: false }}
                 modules={[Autoplay, Pagination]}
                 breakpoints={{ 768: {slidesPerView: 2}, 1024: { slidesPerView: 3 } }}
             >

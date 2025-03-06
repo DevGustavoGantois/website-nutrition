@@ -2,7 +2,7 @@
 import { testimonialsData } from "@/data/v-data";
 import { ArrowLeftCircle, ArrowRightCircle, Star, UserCircle } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -21,10 +21,11 @@ export function HomeTestimonials() {
             </p>
           </div>
           <Swiper
-            modules={[Navigation, Pagination]}
+            modules={[Navigation, Pagination, Autoplay]}
             spaceBetween={30}
             slidesPerView={1}
             loop={true}
+            autoplay={{ delay: 8000, disableOnInteraction: false }}
             breakpoints={{
               640: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
