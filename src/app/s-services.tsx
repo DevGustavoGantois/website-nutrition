@@ -46,21 +46,21 @@ const items = [
       {
         titleService: "Sarcopenia",
         descriptionService:
-          "A perda de peso pode levar à sarcopenia, comprometendo a força e a funcionalidade. Para evitar isso, é essencial manter treinamento de força e uma dieta rica em proteínas.",
+          "A perda de peso pode levar à sarcopenia, comprometendo a força e funcionalidade muscular. Para evitar isto, é essencial manter o treinamento físico e uma dieta rica em proteínas.",
         image: <Image width={300} height={400} src="/SarcopeniaImg.svg" alt="Saúde" className="w-full h-auto" />,
         header: <Skeleton />,
       },
       {
         titleService: "Performance",
         descriptionService:
-          "Maximize seus resultados esportivos com um plano nutricional personalizado, que guie seu consumo de alimentos estratégicos e quantidades adequadas para o seu desempenho físico e metabólico.",
+          "Maximize seus resultados esportivos, a partir de um plano nutricional personalizado e que lhe oriente no consumo de alimentos estratégicos e quantidades adequadas ao seu desempenho físico e metabólico.",
         image: <Image width={400} height={400} src="/PerformaceImg.svg" alt="Performance" className="w-full h-auto" />,
         header: <Skeleton />,
       },
       {
         titleService: "Saúde",
         descriptionService:
-          "Construa e fortaleça seus músculos com o plano alimentar ideal. Através de uma alimentação balanceada e focada, podemos otimizar a recuperação muscular e a força.",
+          "Utilize a nutrição para favorecer seu bem-estar e prevenir doenças, com um plano alimentar voltado para melhoria de seus parâmetros de saúde.",
         image: <Image width={400} height={400} src="/saudeImg.svg" alt="Massa Muscular" className="w-full overflow-hidden h-1/2" />,
         header: <Skeleton />,
       },

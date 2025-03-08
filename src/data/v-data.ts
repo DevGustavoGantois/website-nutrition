@@ -127,7 +127,7 @@ export const aboutData = [
   {
     title: "Sobre mim",
     description:
-      "Nutricionista, educador físico e especialista em fisiologia do exercício, Rafael Perrone recorre as suas vivências para atuar como Coach de Mudança de Estilo de Vida (MEV).  Como alguém que superou a obesidade, usa as técnicas que desenvolveu aliado às suas formações multidisciplinares para sua própria transformação. Hoje, com expertise no tratamento à obesidade, auxilia pacientes e mentorados a alcançarem objetivos e otimizarem sua saúde e performance, com foco em estratégias alimentares adaptadas às necessidades individuais.",
+      "Nutricionista, educador físico e especialista em fisiologia do exercício, Rafael Perrone recorre as suas vivências para atuar como Coach de Mudança de Estilo de Vida (MEV).  Como alguém que superou a obesidade, usa as técnicas que desenvolveu aliando às suas formações multidisciplinares para sua própria transformação. Hoje, com expertise no tratamento à obesidade, auxilia pacientes e mentorados a alcançarem objetivos e otimizarem sua saúde e performance, com foco em estratégias alimentares adaptadas às necessidades individuais.",
     btnText: "Saiba mais",
     btnWhatsapp: "Whatsapp"
   },
