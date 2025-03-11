@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
+      <head>
+      <meta name="google-site-verification" content="fKEXrYslXZmmPRgX3Tkl3LAjFfqjMBJOcEfNiubIt7k" />
+      </head>
       <body
         className={`${plusJakartaSans.variable} antialiased bg-[#F5F5F5]`}
       >
