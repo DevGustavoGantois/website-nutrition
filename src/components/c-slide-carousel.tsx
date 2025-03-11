@@ -12,6 +12,20 @@ export function CarouselSlide() {
           alt=""
         />
         <Image
+          src="/Obesidade.svg"
+          width={400}
+          height={400}
+          quality={100}
+          alt=""
+        />
+        <Image
+          src="/MassaMuscular.svg"
+          width={500}
+          height={500}
+          quality={100}
+          alt=""
+        />
+        <Image
           src="/Performance.svg"
           width={450}
           height={300}
@@ -21,6 +35,20 @@ export function CarouselSlide() {
         <Image
           src="/Saude.svg"
           width={300}
+          height={300}
+          quality={100}
+          alt=""
+        />
+        <Image
+          src="/Obesidade.svg"
+          width={450}
+          height={450}
+          quality={100}
+          alt=""
+        />
+        <Image
+          src="/MassaMuscular.svg"
+          width={500}
           height={300}
           quality={100}
           alt=""
@@ -92,6 +120,20 @@ export function CarouselSlide() {
           src="/Emagrecimento.svg"
           width={450}
           height={300}
+          quality={100}
+          alt=""
+        />
+        <Image
+          src="/Obesidade.svg"
+          width={400}
+          height={400}
+          quality={100}
+          alt=""
+        />
+        <Image
+          src="/MassaMuscular.svg"
+          width={500}
+          height={500}
           quality={100}
           alt=""
         />

@@ -28,7 +28,7 @@ export const navbarData = [
 export const servicesData = [
   {
     title: "Sua jornada de transformação começa aqui!",
-    description: "Em busca de um propósito: uma vida melhor e mais saudável.",
+    description: "Em busca de um propósito: uma vida melhor e mais saudável. Seja muito bem vindo hermanito!",
   },
 ];
 

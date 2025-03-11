@@ -14,7 +14,7 @@ export function HomeServices() {
           <div className="text-2xl text-center lg:text-start lg:text-[40px] font-bold bg-gradient-to-r from-[#1F63AA] to-[#00424F] bg-clip-text text-transparent max-w-[669px] lg:leading-10 h-[90px] mt-10">
             {item.title}
           </div>
-          <p className="text-center text-base lg:text-[20px] lg:text-start text-[#404040] max-w-[539px]" data-aos="fade-up">
+          <p className="text-center text-base lg:text-[24px] lg:text-start text-[#404040] max-w-[539px]" data-aos="fade-up">
             {item.description}
           </p>  
         </div>
@@ -37,7 +37,7 @@ export function HomeServices() {
 
 const items = [
     {
-        titleService: "Obesidade pré-clinica e obesidade clínica",
+        titleService: "Obesidade pré-clinica e Obesidade clínica",
         descriptionService:
           "Juntos, vamos elaborar um plano dietético que respeite suas necessidades nutricionais e seus gostos alimentares, proporcionando um tratamento equilibrado e sem sofrimento.",
         image: <Image width={400} height={400} src="/emagrecimentoImg.svg" alt="Emagrecimento" className="w-full h-auto" />,
