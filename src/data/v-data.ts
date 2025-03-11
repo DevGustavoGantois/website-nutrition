@@ -163,7 +163,7 @@ export const testimonialsData = [
       {
         condition: "Advogado - 39 anos",
         testimonial: " Perrone é um profissional que vive o que ensina e prescreve. Seu foco é no resultado duradouro do seu paciente, sem falsas promessas, sem dietas da moda. Vive na pele a dor de um obeso e por isso consegue ser empático com seus pacientes ao mesmo tempo que é um exemplo! Indico de olhos fechados!",
-        name: "Rivanildo Cardoso Junior",
+        name: "Rivalino Cardoso Junior",
       },
       {
         condition: "Psicóloga -  27 anos.",
